@@ -1,0 +1,828 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.nav-text{
+  text-decoration: none;
+  color: white;
+}
+.nav-text:hover{
+  color: #3199e4;
+}
+
+.home,
+.products {
+  position: relative;
+  text-transform: capitalize;
+}
+.akar-iconschevron-down {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.about-tab {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.about,
+.pricing {
+  position: relative;
+  text-transform: capitalize;
+}
+.home-about-pricing-group {
+  width: 327px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 32px;
+  max-width: 100%;
+}
+.log-in-button {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.search {
+  text-transform: capitalize;
+}
+.for-anything {
+  text-transform: lowercase;
+}
+.search-for-anything-container {
+  position: relative;
+  font-size: 14px;
+  font-family: Inter;
+  color: #fffbfb;
+  text-align: left;
+}
+.search-box {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 40px;
+  background-color: #373737;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: 0 12px;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.search-box:hover {
+  background-color: #5e5e5e;
+}
+.log-in-child {
+  height: 44px;
+  width: 130px;
+  position: relative;
+  border-radius: 25px;
+  display: none;
+}
+.log-in,
+.log-in1 {
+  white-space: nowrap;
+}
+.log-in1 {
+  flex: 1;
+  position: relative;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.log-in {
+  cursor: pointer;
+  border: 0;
+  padding: 7px 7px 11px 30px;
+  background-color: #fff;
+  width: 130px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.log-in:hover {
+  background-color: #e6e6e6;
+}
+.login-sign-up-container {
+  width: 514px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 48px;
+  max-width: 100%;
+}
+.log-insign-up1,
+.navs {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.navs {
+  align-self: stretch;
+  background-color: #0e0e0e;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 22px 20px 200px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: #fffbfb;
+  font-family: Inter;
+}
+.log-insign-up1 {
+  width: 352.1px;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.log-in-sign-up-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 26px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: 41.4px;
+  color: #fff;
+  font-family: Inter;
+}
+.card-1-child {
+  width: 405px;
+  height: 501px;
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.welcome-back {
+  height: 45px;
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+  display: inline-block;
+  z-index: 1;
+}
+.sign-up-label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 5px;
+}
+.enter-your-credential {
+  height: 32px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 800;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-with-form-fields,
+.frame-with-sign-up {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-with-form-fields {
+  flex: 1;
+  flex-direction: column;
+  gap: 11px 0;
+}
+.frame-with-sign-up {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 9px;
+  box-sizing: border-box;
+}
+.password-input-child {
+  height: 56px;
+  width: 321px;
+  position: relative;
+  border-radius: 15px;
+  background-color: rgba(216, 215, 215, 0.45);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enter-username {
+  width: 161px;
+  border: 0;
+  outline: 0;
+  font-weight: 200;
+  font-family: Inter;
+  font-size: 20px;
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.password-input,
+.sign-up-button-child {
+  border-radius: 15px;
+  background-color: rgba(216, 215, 215, 0.45);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.password-input {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 22px 17px;
+  z-index: 1;
+}
+.sign-up-button-child {
+  height: 56px;
+  width: 321px;
+  position: relative;
+  display: none;
+}
+.enter-password {
+  width: 161px;
+  border: 0;
+  outline: 0;
+  font-weight: 200;
+  font-family: Inter;
+  font-size: 20px;
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.donothave-account-label-child,
+.sign-up-button {
+  border-radius: 15px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sign-up-button {
+  align-self: stretch;
+  background-color: rgba(216, 215, 215, 0.45);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 22px 17px;
+  z-index: 1;
+}
+.donothave-account-label-child {
+  height: 56px;
+  width: 321px;
+  position: relative;
+  background-color: rgba(64, 92, 239, 0.45);
+  display: none;
+}
+.log-in2 {
+  position: relative;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  z-index: 2;
+}
+.donothave-account-label,
+.username-input {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.donothave-account-label {
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 16px 16px 17px;
+  background-color: rgba(64, 92, 239, 0.45);
+  border-radius: 15px;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.donothave-account-label:hover,
+.sign-up-form:hover {
+  background-color: rgba(102, 130, 255, 0.45);
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+.username-input {
+  margin: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 22px 0;
+}
+.sign-in {
+  color: #3199e4;
+}
+.dont-have-an-container {
+  height: 30px;
+  position: relative;
+  font-weight: 200;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.credential-input,
+.password-field {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.credential-input {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px 0;
+}
+.password-field {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 9px 0 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.card-1,
+.card-2-child {
+  border-radius: 20px;
+  background-color: #fff;
+  max-width: 100%;
+}
+.card-1 {
+  flex: 0.9141;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 27px 33px 80px 42px;
+  box-sizing: border-box;
+  gap: 39px;
+  min-width: 361px;
+}
+.card-2-child {
+  width: 405px;
+  height: 501px;
+  position: relative;
+  display: none;
+}
+.create-your-account,
+.sign-up {
+  position: relative;
+  font-weight: 800;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.sign-up {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  font-size: 41px;
+  white-space: nowrap;
+}
+.create-your-account {
+  width: 167px;
+  height: 27px;
+  font-size: 15px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.card-2-inner,
+.sign-up-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.sign-up-parent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px 0;
+}
+.card-2-inner {
+  width: 197px;
+  height: 80px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 22px;
+  box-sizing: border-box;
+}
+.frame-child {
+  height: 56px;
+  width: 321px;
+  position: relative;
+  border-radius: 15px;
+  background-color: rgba(216, 215, 215, 0.45);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enter-name {
+  width: 161px;
+  border: 0;
+  outline: 0;
+  font-weight: 200;
+  font-family: Inter;
+  font-size: 20px;
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.frame-div,
+.rectangle-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent {
+  flex: 1;
+  border-radius: 15px;
+  background-color: rgba(216, 215, 215, 0.45);
+  border: 1px solid #000;
+  align-items: center;
+  padding: 16px 23px 17px;
+  z-index: 1;
+}
+.frame-div {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 20px 8px;
+}
+.enter-name-field-container-child {
+  height: 56px;
+  width: 321px;
+  position: relative;
+  border-radius: 15px;
+  background-color: rgba(216, 215, 215, 0.45);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enter-username1 {
+  width: 161px;
+  border: 0;
+  outline: 0;
+  font-weight: 200;
+  font-family: Inter;
+  font-size: 20px;
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.enter-name-field-container,
+.sign-up-button-item {
+  border-radius: 15px;
+  background-color: rgba(216, 215, 215, 0.45);
+  border: 1px solid #000;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.enter-name-field-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 23px 17px;
+  z-index: 1;
+}
+.sign-up-button-item {
+  height: 56px;
+  width: 321px;
+  position: relative;
+  display: none;
+}
+.enter-password1 {
+  width: 161px;
+  border: 0;
+  outline: 0;
+  font-weight: 200;
+  font-family: Inter;
+  font-size: 20px;
+  background-color: transparent;
+  height: 23px;
+  position: relative;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.sign-up-button1,
+.sign-up-form-child {
+  border-radius: 15px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sign-up-button1 {
+  align-self: stretch;
+  background-color: rgba(216, 215, 215, 0.45);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px 23px 17px;
+  z-index: 1;
+}
+.sign-up-form-child {
+  height: 56px;
+  width: 321px;
+  position: relative;
+  background-color: rgba(64, 92, 239, 0.45);
+  display: none;
+}
+.sign-up1 {
+  height: 31px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 2;
+}
+.copyright-text,
+.sign-up-form {
+  align-self: stretch;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sign-up-form {
+  cursor: pointer;
+  border: 1px solid #000;
+  padding: 14px 20px 11px 21px;
+  background-color: rgba(64, 92, 239, 0.45);
+  border-radius: 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  z-index: 1;
+}
+.copyright-text {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px;
+  gap: 21px 0;
+}
+.already-have-an {
+  color: #000;
+}
+.log-in3 {
+  color: #44aefa;
+}
+.already-have-an-container {
+  height: 31px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: Inter;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.card-2,
+.card-frame {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.card-2 {
+  margin: 0;
+  flex: 1;
+  border-radius: 20px;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 22px 55px;
+  gap: 13px;
+  min-width: 361px;
+}
+.card-frame {
+  width: 1033px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 20px 17px;
+  gap: 0 183px;
+  text-align: left;
+  font-size: 41.4px;
+  color: #000;
+  font-family: Inter;
+}
+.bg {
+  width: 1440px;
+  height: 153px;
+  position: relative;
+  background-color: #42454a;
+  display: none;
+  max-width: 100%;
+}
+.facebook-icon,
+.instagramm-icon,
+.twitter-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+  z-index: 1;
+}
+.frame-facebook-twitter-instagr,
+.social-icons-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-facebook-twitter-instagr {
+  gap: 0 16px;
+}
+.social-icons-frame {
+  padding: 0 0 0 34px;
+}
+.copyright-2021-all {
+  position: relative;
+  z-index: 1;
+}
+.footer,
+.log-insign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer {
+  align-self: stretch;
+  height: 153px;
+  background-color: #42454a;
+  justify-content: flex-end;
+  padding: 22px;
+  box-sizing: border-box;
+  gap: 27px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #fbfbfb;
+  font-family: Poppins;
+}
+.log-insign-up {
+  width: 100%;
+  position: relative;
+  background-color: rgba(35, 73, 86, 0.54);
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: 158px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1025px) {
+  .card-frame {
+    gap: 0 183px;
+  }
+}
+@media screen and (max-width: 975px) {
+  .home-about-pricing-group {
+    display: none;
+  }
+  .log-insign-up1,
+  .welcome-back {
+    font-size: 33px;
+  }
+  .card-1 {
+    flex: 1;
+  }
+  .sign-up {
+    font-size: 33px;
+  }
+  .card-2 {
+    flex: 1;
+  }
+  .card-frame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 725px) {
+  .login-sign-up-container {
+    gap: 0 48px;
+  }
+  .navs {
+    padding-left: 100px;
+    box-sizing: border-box;
+  }
+  .card-1,
+  .card-2 {
+    padding-top: 20px;
+    padding-bottom: 52px;
+    box-sizing: border-box;
+  }
+  .card-2 {
+    padding-bottom: 36px;
+  }
+  .card-frame {
+    gap: 0 183px;
+  }
+  .log-insign-up {
+    gap: 158px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home-about-pricing-group {
+    gap: 0 32px;
+  }
+  .login-sign-up-container {
+    display: none;
+  }
+  .navs {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .log-insign-up1,
+  .welcome-back {
+    font-size: 25px;
+  }
+  .enter-password,
+  .enter-username,
+  .enter-your-credential {
+    font-size: 16px;
+  }
+  .card-1 {
+    gap: 39px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .sign-up {
+    font-size: 25px;
+  }
+  .enter-name,
+  .enter-password1,
+  .enter-username1 {
+    font-size: 16px;
+  }
+  .card-2 {
+    min-width: 100%;
+  }
+  .card-frame {
+    gap: 0 183px;
+  }
+  .log-insign-up {
+    gap: 158px 0;
+  }
+}

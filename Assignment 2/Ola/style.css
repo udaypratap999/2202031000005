@@ -1,0 +1,757 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-text:hover {
+    color: #3199e4;
+}
+
+.ola-child {
+    width: 0;
+    height: 321px;
+    display: none;
+}
+
+.home,
+.products {
+    position: relative;
+    text-transform: capitalize;
+}
+
+.akar-iconschevron-down {
+    height: 12px;
+    width: 12px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.products-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 8px;
+}
+
+.about,
+.pricing {
+    position: relative;
+    text-transform: capitalize;
+}
+
+.home-parent {
+    width: 337px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 10px 0 0;
+    box-sizing: border-box;
+    gap: 0 32px;
+    max-width: 100%;
+}
+
+.frame-child {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    border-radius: 1px;
+}
+
+.logo {
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.star-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 2px;
+    font-size: 20px;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 20px;
+}
+
+.search {
+    text-transform: capitalize;
+}
+
+.for-anything {
+    text-transform: lowercase;
+}
+
+.search-for-anything-container {
+    position: relative;
+    font-size: 14px;
+    font-family: Inter;
+    color: #fffbfb;
+    text-align: left;
+}
+
+.search-box {
+    cursor: pointer;
+    border: 0;
+    padding: 12px 40px;
+    background-color: #373737;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    gap: 0 12px;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.search-box:hover {
+    background-color: #5e5e5e;
+}
+
+.log-in-child {
+    height: 44px;
+    width: 130px;
+    position: relative;
+    border-radius: 25px;
+    display: none;
+}
+
+.log-in,
+.log-in1 {
+    white-space: nowrap;
+}
+
+.log-in1 {
+    flex: 1;
+    position: relative;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: Inter;
+    color: #000;
+    text-align: left;
+    z-index: 1;
+}
+
+.log-in {
+    cursor: pointer;
+    border: 0;
+    padding: 7px 8px 11px 29px;
+    background-color: #fbfbfb;
+    width: 130px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.log-in:hover {
+    background-color: #e0e0e0;
+}
+
+.navs,
+.navs-wrapper,
+.search-box-parent {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.search-box-parent {
+    width: 514px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 48px;
+}
+
+.navs,
+.navs-wrapper {
+    box-sizing: border-box;
+}
+
+.navs {
+    flex: 1;
+    background-color: #0e0e0e;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 22px 20px 200px;
+    gap: 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #fffbfb;
+    font-family: Inter;
+}
+
+.navs-wrapper {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 26px 0 0;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+}
+
+.image-1-icon {
+    height: 814px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.animation,
+.redesign {
+    margin: 0;
+}
+
+.redesign-animation-container {
+    margin: 0 !important;
+    position: absolute;
+    top: 44px;
+    left: -481px;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    z-index: 1;
+}
+
+.frame-parent,
+.image-1-parent {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.image-1-parent {
+    width: 927px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 0 20px;
+    position: relative;
+    max-width: 100%;
+}
+
+.frame-parent {
+    margin-right: -36px;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 0 182px;
+    gap: 34px 0;
+    max-width: 102%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 104px;
+    color: #fff;
+    font-family: Ubuntu;
+}
+
+.in-everything-we,
+.innovation {
+    margin: 0;
+}
+
+.innovation-in-everything-we-container {
+    margin: 0;
+    width: 635px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.design-web-img-v2-1-icon {
+    height: 405px;
+    width: 450.6px;
+    position: absolute;
+    margin: 0 !important;
+    right: 2.4px;
+    bottom: -36px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.footer-social-media-child {
+    width: 530px;
+    height: 589px;
+    position: relative;
+    border-radius: 40px;
+    background-color: #e4f0f4;
+    display: none;
+    max-width: 100%;
+}
+
+.design {
+    width: 167px;
+    height: 46px;
+    position: relative;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.design,
+.perfect-balance-of,
+.purity-simplicity-and {
+    margin: 0;
+}
+
+.learn-more,
+.perfect-balance-of-purity-container {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+.perfect-balance-of-purity-container {
+    width: 295px;
+    display: inline-block;
+    z-index: 1;
+}
+
+.learn-more {
+    color: #70d3b6;
+    z-index: 2;
+}
+
+.footer-social-media,
+.frame-design-webimgv {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.footer-social-media {
+    border-radius: 40px;
+    background-color: #e4f0f4;
+    flex-direction: column;
+    padding: 39px 52px 357px;
+    box-sizing: border-box;
+    gap: 19px 0;
+}
+
+.frame-design-webimgv {
+    flex-direction: row;
+    position: relative;
+    min-width: 344px;
+}
+
+.frame-design-webimgv-child {
+    width: 530px;
+    height: 589px;
+    position: relative;
+    border-radius: 40px;
+    background-color: #edeaf2;
+    display: none;
+    max-width: 100%;
+}
+
+.performance {
+    margin: 0;
+    width: 292px;
+    height: 49px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.enabled-by-next,
+.pure-power-acceleration {
+    margin: 0;
+}
+
+.pure-power-acceleration-container {
+    margin: 0;
+    height: 98px;
+    width: 325px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.digital-tech-web-img-v2-1-icon {
+    height: 468px;
+    width: 447.6px;
+    position: absolute;
+    margin: 0 !important;
+    right: -163px;
+    bottom: -382px;
+    object-fit: cover;
+    z-index: 2;
+}
+
+.rectangle-image {
+    flex-direction: row;
+    position: relative;
+}
+
+.frame-performance,
+.performance-parent,
+.rectangle-image {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.frame-performance {
+    flex-direction: row;
+    padding: 0 0 0 8px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+.performance-parent {
+    flex-direction: column;
+    gap: 18px 0;
+}
+
+.learn-more1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    z-index: 1;
+}
+
+.frame-design-webimgv1,
+.learn-more-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.learn-more-wrapper {
+    flex-direction: row;
+    padding: 0 8px;
+    font-size: 24px;
+    color: #70d3b6;
+}
+
+.frame-design-webimgv1 {
+    flex: 0.8755;
+    border-radius: 40px;
+    background-color: #edeaf2;
+    flex-direction: column;
+    padding: 42px 33px 325px;
+    box-sizing: border-box;
+    gap: 32px 0;
+    min-width: 344px;
+    max-width: 100%;
+    font-size: 48px;
+}
+
+.frame-design,
+.frame-innovation {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.frame-design {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    gap: 0 84px;
+    max-width: 100%;
+}
+
+.frame-innovation {
+    align-self: stretch;
+    padding: 0 0 0 16px;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #000;
+}
+
+.frame-innovation,
+.innovation-in-everything-we-d-parent,
+.ola-inner {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.innovation-in-everything-we-d-parent {
+    width: 1160px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 116px 0;
+}
+
+.ola-inner {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 44px 0 20px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 48px;
+    color: #fff;
+    font-family: Ubuntu;
+}
+
+.bg {
+    width: 1440px;
+    height: 153px;
+    position: relative;
+    background-color: #42454a;
+    display: none;
+    max-width: 100%;
+}
+
+.facebook-icon,
+.instagramm-icon,
+.twitter-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    min-height: 32px;
+    z-index: 1;
+}
+
+.frame-footer-social-media,
+.text-facebook-twitter-instagra {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.text-facebook-twitter-instagra {
+    gap: 0 16px;
+}
+
+.frame-footer-social-media {
+    padding: 0 0 0 34px;
+}
+
+.copyright-2021-all {
+    position: relative;
+    z-index: 1;
+}
+
+.footer,
+.ola {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    align-self: stretch;
+    height: 153px;
+    background-color: #42454a;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 22px;
+    box-sizing: border-box;
+    gap: 27px;
+    max-width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #fbfbfb;
+    font-family: Poppins;
+}
+
+.ola {
+    width: 100%;
+    position: relative;
+    background-color: #121111;
+    overflow: hidden;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 97px 0;
+    letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+    .frame-parent {
+        padding-bottom: 118px;
+        box-sizing: border-box;
+    }
+
+    .frame-design {
+        gap: 0 84px;
+    }
+
+    .innovation-in-everything-we-d-parent {
+        gap: 116px 0;
+    }
+
+    .ola-inner {
+        padding-right: 22px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .home-parent {
+        display: none;
+    }
+
+    .redesign-animation-container {
+        font-size: 52px;
+    }
+
+    .design,
+    .innovation-in-everything-we-container {
+        font-size: 38px;
+    }
+
+    .frame-design-webimgv {
+        flex: 1;
+    }
+
+    .performance {
+        font-size: 38px;
+    }
+
+    .frame-design-webimgv1 {
+        flex: 1;
+    }
+
+    .frame-design {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .search-box-parent {
+        gap: 0 48px;
+    }
+
+    .frame-parent,
+    .navs {
+        box-sizing: border-box;
+    }
+
+    .navs {
+        padding-left: 100px;
+    }
+
+    .frame-parent {
+        gap: 34px 0;
+        padding-bottom: 77px;
+    }
+
+    .footer-social-media {
+        padding-top: 25px;
+        padding-bottom: 232px;
+        box-sizing: border-box;
+    }
+
+    .frame-design-webimgv1 {
+        padding-top: 27px;
+        padding-bottom: 211px;
+        box-sizing: border-box;
+    }
+
+    .frame-design {
+        gap: 0 84px;
+    }
+
+    .innovation-in-everything-we-d-parent {
+        gap: 116px 0;
+    }
+
+    .ola {
+        gap: 97px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .home-parent {
+        gap: 0 32px;
+    }
+
+    .search-box-parent {
+        display: none;
+    }
+
+    .navs {
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+    .redesign-animation-container {
+        font-size: 31px;
+    }
+
+    .design,
+    .innovation-in-everything-we-container {
+        font-size: 29px;
+    }
+
+    .learn-more,
+    .perfect-balance-of-purity-container {
+        font-size: 19px;
+    }
+
+    .footer-social-media {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    .frame-design-webimgv {
+        min-width: 100%;
+    }
+
+    .performance {
+        font-size: 29px;
+    }
+
+    .learn-more1,
+    .pure-power-acceleration-container {
+        font-size: 19px;
+    }
+
+    .frame-design-webimgv1 {
+        gap: 32px 0;
+        min-width: 100%;
+    }
+
+    .ola {
+        gap: 97px 0;
+    }
+}
