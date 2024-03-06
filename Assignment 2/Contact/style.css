@@ -1,0 +1,1178 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+.nav-text {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-text:hover {
+    color: #3199e4;
+}
+
+.home,
+.products {
+    position: relative;
+    text-transform: capitalize;
+}
+
+.akar-iconschevron-down {
+    height: 12px;
+    width: 12px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.products-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 8px;
+}
+
+.about,
+.pricing {
+    position: relative;
+    text-transform: capitalize;
+}
+
+.about-link-frame {
+    width: 327px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 32px;
+    max-width: 100%;
+}
+
+.log-in-text-frame {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 20px;
+}
+
+.search {
+    text-transform: capitalize;
+}
+
+.for-anything {
+    text-transform: lowercase;
+}
+
+.search-for-anything-container {
+    position: relative;
+    font-size: 14px;
+    font-family: Inter;
+    color: #0e0e0e;
+    text-align: left;
+}
+
+.search-box {
+    cursor: pointer;
+    border: 0;
+    padding: 12px 40px;
+    background-color: #fff;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    gap: 0 12px;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.log-in:hover,
+.search-box:hover {
+    background-color: #e6e6e6;
+}
+
+.log-in-child {
+    height: 44px;
+    width: 130px;
+    position: relative;
+    border-radius: 25px;
+    display: none;
+}
+
+.log-in1 {
+    flex: 1;
+    position: relative;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: Inter;
+    color: #000;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.log-in,
+.log-in-frame,
+.navs {
+    display: flex;
+    flex-direction: row;
+}
+
+.log-in {
+    cursor: pointer;
+    border: 0;
+    padding: 7px 7px 11px 30px;
+    background-color: #fff;
+    width: 130px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.log-in-frame,
+.navs {
+    max-width: 100%;
+}
+
+.log-in-frame {
+    width: 514px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 48px;
+}
+
+.navs {
+    align-self: stretch;
+    background-color: #000;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 22px 20px 200px;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #fbfbfb;
+    font-family: Inter;
+}
+
+.any-question-or,
+.contact-us {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+.any-question-or {
+    font-size: 18px;
+    font-weight: 500;
+    color: #717171;
+    text-align: center;
+}
+
+.phone-number-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px 0;
+    max-width: 100%;
+}
+
+.contact-us-text-frame-child,
+.frame-child {
+    position: relative;
+    border-radius: 10px;
+    max-width: 100%;
+    display: none;
+}
+
+.frame-child {
+    height: 667px;
+    width: 1196px;
+    background-color: #fff;
+    box-shadow: 0 0 60px 30px rgba(0, 0, 0, 0.03);
+    z-index: 0;
+}
+
+.contact-us-text-frame-child {
+    align-self: stretch;
+    height: 647px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.contact-information,
+.say-something-to {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+    z-index: 1;
+}
+
+.say-something-to {
+    font-size: 18px;
+    font-weight: 400;
+    color: #c9c9c9;
+}
+
+.contact-details-container-fram,
+.contact-info-icon-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.contact-info-icon-frame {
+    flex-direction: column;
+    gap: 6px 0;
+}
+
+.contact-details-container-fram {
+    width: 451px;
+    flex-direction: row;
+    padding: 0 0 61px;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: 28px;
+}
+
+.bxsphone-call-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+    z-index: 1;
+}
+
+.empty-space-frame {
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.log-in-button,
+.search-box-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.log-in-button {
+    gap: 0 25px;
+}
+
+.search-box-frame {
+    align-self: stretch;
+    padding: 0 40px;
+}
+
+.carbonlocation-filled-icon,
+.icsharp-email-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px 0;
+}
+
+.phone-number-frame-child {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.phone-number-frame1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 183px 0;
+}
+
+.demogmailcom {
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.dartmouth-street-boston {
+    width: 288px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.frame-item {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin: 0 !important;
+    top: -26px;
+    left: 26px;
+    z-index: 1;
+}
+
+.claritycursor-hand-click-line-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.frame-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.background-vector-child {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.background-vector {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 20px;
+}
+
+.background-vector,
+.clarity-cursor-hand,
+.ellipse-shape {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.clarity-cursor-hand {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0 17px;
+}
+
+.ellipse-shape {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 41px 0 0;
+}
+
+.search-bar-child {
+    position: absolute;
+    top: 26px;
+    left: 28px;
+    border-radius: 50%;
+    background-color: #1a1a1a;
+    width: 269px;
+    height: 269px;
+    z-index: 1;
+}
+
+.contact-info-group {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: rgba(72, 72, 72, 0.5);
+    width: 138px;
+    height: 138px;
+    z-index: 2;
+}
+
+.search-bar {
+    height: 295px;
+    width: 297px;
+    position: relative;
+}
+
+.location-details-text {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+}
+
+.contact-info-frame,
+.dartmouth-street-frame,
+.group-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.contact-info-frame {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 17px;
+    box-sizing: border-box;
+}
+
+.dartmouth-street-frame,
+.group-frame {
+    flex-direction: column;
+}
+
+.group-frame {
+    align-self: stretch;
+    gap: 16px 0;
+}
+
+.dartmouth-street-frame {
+    flex: 1;
+    gap: 50px 0;
+    min-width: 319px;
+}
+
+.contact-us-text-frame,
+.email-address-frame {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.email-address-frame {
+    margin-right: -89px;
+    margin-bottom: -86px;
+    width: 541px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0 20px;
+    max-width: 110%;
+}
+
+.contact-us-text-frame {
+    height: 647px;
+    width: 491px;
+    border-radius: 10px;
+    overflow-y: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 40px 0 0;
+    box-sizing: border-box;
+    gap: 50px 0;
+    background-image: url(./public/contact-us-text-frame@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-width: 491px;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.vector-path-icon {
+    height: 1px;
+    width: 278px;
+    position: absolute;
+    margin: 0 !important;
+    top: 215px;
+    right: 50px;
+    z-index: 2;
+}
+
+.first-name,
+.last-name {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+    z-index: 2;
+}
+
+.last-name {
+    color: #000;
+}
+
+.name-field {
+    width: 382px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+}
+
+.phone-number-field-child {
+    height: 11.5px;
+    width: 1px;
+    position: relative;
+    z-index: 2;
+}
+
+.doe {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+    z-index: 2;
+}
+
+.email-input,
+.phone-number-field {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.phone-number-field {
+    flex: 1;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.email-input {
+    width: 350px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 5px 7px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.frame-inner,
+.subject-select-icon {
+    height: 1px;
+    width: 278px;
+    position: relative;
+    z-index: 2;
+}
+
+.message-area,
+.name-field-parent,
+.vector-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+}
+
+.message-area {
+    height: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.name-field-parent,
+.vector-parent {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.vector-parent {
+    height: 0;
+}
+
+.name-field-parent {
+    gap: 4px 0;
+    max-width: 100%;
+}
+
+.email,
+.search-bar-icon {
+    position: relative;
+    z-index: 2;
+}
+
+.email {
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.search-bar-icon {
+    align-self: stretch;
+    height: 1px;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.footer-menu {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 35px 0;
+    min-width: 181px;
+}
+
+.currency-selector,
+.phone-number {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+    z-index: 2;
+}
+
+.currency-selector {
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.site-logo {
+    flex-direction: column;
+    gap: 5px 0;
+    color: #000;
+}
+
+.footer-group,
+.navigation-menu,
+.site-logo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.navigation-menu {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 39px;
+}
+
+.footer-group {
+    width: 426px;
+    flex-direction: column;
+    padding: 0 0 17px;
+    box-sizing: border-box;
+    max-width: calc(100% - 44px);
+}
+
+.claritycursor-hand-click-line-icon1 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 3;
+}
+
+.send-button {
+    width: 568px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 100%;
+}
+
+.select-subject {
+    position: relative;
+    line-height: 20px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.logout-button-label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 9px;
+    flex-shrink: 0;
+}
+
+.teenyiconstick-circle-solid {
+    height: 13.2px;
+    width: 13px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.general-inquiry {
+    position: relative;
+    line-height: 20px;
+    z-index: 2;
+}
+
+.user-avatar {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 10px;
+}
+
+.teenyiconstick-circle-solid1 {
+    height: 13.2px;
+    width: 13px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.general-inquiry1 {
+    position: relative;
+    line-height: 20px;
+    z-index: 2;
+}
+
+.user-avatar1 {
+    align-self: stretch;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 10px;
+}
+
+.teenyiconstick-circle-solid2 {
+    height: 13.2px;
+    width: 13px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.user-profile-frame {
+    align-self: stretch;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 20px;
+}
+
+.message {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+    color: #8d8d8d;
+    z-index: 2;
+}
+
+.notifications-button-label {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 46px 0;
+    min-width: 184px;
+}
+
+.general-inquiry2 {
+    position: relative;
+    line-height: 20px;
+    z-index: 2;
+}
+
+.email-text {
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 10px 0 0;
+    box-sizing: border-box;
+}
+
+.teenyiconstick-circle-solid3 {
+    height: 13.2px;
+    width: 13px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.general-inquiry3 {
+    position: relative;
+    line-height: 20px;
+    z-index: 2;
+}
+
+.feedback-button-label,
+.subject-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0 10px;
+}
+
+.subject-field {
+    height: 20px;
+    align-items: center;
+}
+
+.feedback-button-label {
+    width: 520px;
+    align-items: flex-start;
+    max-width: 100%;
+    flex-shrink: 0;
+    font-size: 12px;
+}
+
+.write-your-message {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+    z-index: 2;
+}
+
+.input-message-area {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 6px;
+    flex-shrink: 0;
+    color: #8d8d8d;
+}
+
+.social-media-icons {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.send-button-parent,
+.settings-button-label {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.settings-button-label {
+    gap: 5px 0;
+    font-size: 14px;
+    color: #000;
+}
+
+.send-button-parent {
+    gap: 28px 0;
+}
+
+.send-message {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins;
+    color: #fff;
+    text-align: center;
+}
+
+.copyright-info {
+    cursor: pointer;
+    border: 0;
+    padding: 15px;
+    background-color: #000;
+    width: 214px;
+    border-radius: 5px;
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.copyright-info:hover {
+    background-color: #333;
+}
+
+.frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 45px 0;
+    max-width: 100%;
+}
+
+.chat-initiate-button-frame,
+.frame-wrapper,
+.rectangle-parent {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.frame-wrapper {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 0 0;
+    min-width: 387px;
+    font-size: 12px;
+    color: #8d8d8d;
+}
+
+.chat-initiate-button-frame,
+.rectangle-parent {
+    text-align: left;
+    font-family: Poppins;
+}
+
+.rectangle-parent {
+    align-self: stretch;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 60px 30px rgba(0, 0, 0, 0.03);
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 50px 10px 10px;
+    position: relative;
+    gap: 50px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.chat-initiate-button-frame {
+    width: 1236px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 30px;
+    gap: 50px 0;
+    font-size: 40px;
+    color: #000;
+}
+
+.bg {
+    width: 1440px;
+    height: 153px;
+    position: relative;
+    background-color: #42454a;
+    display: none;
+    max-width: 100%;
+}
+
+.facebook-icon,
+.instagramm-icon,
+.twitter-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    min-height: 32px;
+    z-index: 1;
+}
+
+.contact-frame,
+.instagram-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.contact-frame {
+    gap: 0 16px;
+}
+
+.instagram-icon {
+    padding: 0 0 0 34px;
+}
+
+.copyright-2021-all {
+    position: relative;
+    z-index: 1;
+}
+
+.contact,
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    align-self: stretch;
+    height: 153px;
+    background-color: #42454a;
+    justify-content: flex-end;
+    padding: 22px;
+    box-sizing: border-box;
+    gap: 27px;
+    max-width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #fbfbfb;
+    font-family: Poppins;
+}
+
+.contact {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    justify-content: flex-start;
+    gap: 61px 0;
+    letter-spacing: normal;
+}
+
+@media screen and (max-width: 1200px) {
+    .rectangle-parent {
+        padding-right: 25px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .about-link-frame {
+        display: none;
+    }
+
+    .contact-us {
+        font-size: 32px;
+    }
+
+    .contact-us-text-frame {
+        flex: 1;
+    }
+
+    .rectangle-parent {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .log-in-frame {
+        gap: 0 48px;
+    }
+
+    .navs {
+        padding-left: 100px;
+        box-sizing: border-box;
+    }
+
+    .location-details-text {
+        flex-wrap: wrap;
+    }
+
+    .dartmouth-street-frame {
+        gap: 50px 0;
+    }
+
+    .email-address-frame {
+        flex-wrap: wrap;
+    }
+
+    .contact-us-text-frame {
+        height: auto;
+        gap: 50px 0;
+        min-width: 100%;
+    }
+
+    .feedback-button-label {
+        flex-wrap: wrap;
+    }
+
+    .frame-group {
+        gap: 45px 0;
+    }
+
+    .frame-wrapper {
+        padding-top: 32px;
+        box-sizing: border-box;
+        min-width: 100%;
+    }
+
+    .rectangle-parent {
+        gap: 50px;
+    }
+
+    .chat-initiate-button-frame {
+        gap: 50px 0;
+    }
+
+    .contact {
+        gap: 61px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .about-link-frame {
+        gap: 0 32px;
+    }
+
+    .log-in-frame {
+        display: none;
+    }
+
+    .navs {
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+    .contact-us {
+        font-size: 24px;
+    }
+
+    .contact-information {
+        font-size: 22px;
+    }
+
+    .name-field {
+        flex-wrap: wrap;
+    }
+
+    .footer-menu {
+        gap: 35px 0;
+    }
+
+    .navigation-menu {
+        flex-wrap: wrap;
+        gap: 0 39px;
+    }
+
+    .notifications-button-label {
+        gap: 46px 0;
+    }
+
+    .contact {
+        gap: 61px 0;
+    }
+}

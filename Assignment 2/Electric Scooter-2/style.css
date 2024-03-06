@@ -1,0 +1,631 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.nav-text {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-text:hover {
+  color: #3199e4;
+}
+
+.home,
+.products {
+  position: relative;
+  text-transform: capitalize;
+}
+
+.akar-iconschevron-down {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.products-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+
+.about,
+.pricing {
+  position: relative;
+  text-transform: capitalize;
+}
+
+.home-about-pricing-frame {
+  width: 327px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 32px;
+  max-width: 100%;
+}
+
+.search-box-icon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+
+.search {
+  text-transform: capitalize;
+}
+
+.for-anything {
+  text-transform: lowercase;
+}
+
+.search-for-anything-container {
+  position: relative;
+  font-size: 14px;
+  font-family: Inter;
+  color: #fffbfb;
+  text-align: left;
+}
+
+.search-box {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 40px;
+  background-color: #373737;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: 0 12px;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.search-box:hover {
+  background-color: #5e5e5e;
+}
+
+.log-in-child {
+  height: 44px;
+  width: 130px;
+  position: relative;
+  border-radius: 25px;
+  display: none;
+}
+
+.log-in,
+.log-in1 {
+  white-space: nowrap;
+}
+
+.log-in1 {
+  flex: 1;
+  position: relative;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+
+.log-in {
+  cursor: pointer;
+  border: 0;
+  padding: 7px 7px 11px 30px;
+  background-color: #fbfbfb;
+  width: 130px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.log-in:hover {
+  background-color: #e0e0e0;
+}
+
+.navs,
+.navs-wrapper,
+.search-box-login-frame {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.search-box-login-frame {
+  width: 514px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 48px;
+}
+
+.navs,
+.navs-wrapper {
+  box-sizing: border-box;
+}
+
+.navs {
+  flex: 1;
+  background-color: #0e0e0e;
+  overflow: hidden;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 22px 20px 200px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: #fffbfb;
+  font-family: Inter;
+}
+
+.navs-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 109px;
+}
+
+.electric-scooter {
+  position: relative;
+}
+
+.product-name-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 11px;
+}
+
+.buy-battery-operated-and {
+  margin: 0;
+  width: 524px;
+  height: 335px;
+  position: relative;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: inherit;
+  color: #fff;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.buy-button,
+.size-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.size-frame {
+  gap: 171px 0;
+}
+
+.buy-button {
+  padding: 8px 0 0;
+  box-sizing: border-box;
+  min-width: 524px;
+  max-width: 100%;
+}
+
+.image-4-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.rectangle-shape {
+  width: 1px;
+  flex: 1;
+  position: relative;
+  background-color: #d9d9d9;
+}
+
+.div {
+  position: relative;
+  white-space: nowrap;
+}
+
+.fourth-level-frame,
+.third-level-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.fourth-level-frame {
+  flex-direction: row;
+  padding: 0 0 0 38px;
+}
+
+.third-level-frame {
+  align-self: stretch;
+  flex-direction: column;
+}
+
+.second-level-frame {
+  height: 105px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 57px;
+  box-sizing: border-box;
+}
+
+.electric-scooter-text,
+.product-parameter-frame,
+.second-level-frame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.product-parameter-frame {
+  height: 617px;
+  width: 449px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 39px 0;
+  min-width: 449px;
+  color: #fff;
+  font-family: Inter;
+}
+
+.electric-scooter-text {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0 155px;
+}
+
+.parameter-explanation {
+  margin: 0;
+  width: 446px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+.parameter-info-frame {
+  width: 515px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+
+.size-open-size {
+  margin: 0;
+}
+
+.cm {
+  font-size: 36px;
+}
+
+.blank-line,
+.size-folding-size-108-42 {
+  margin: 0;
+}
+
+.size-open-size-container {
+  width: 685px;
+  height: 105px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+.bare-car-weight,
+.color-black-regular,
+.cruising-range-about,
+.folding-method-fast,
+.frame-material-tough,
+.product-name-x8,
+.product-parameters,
+.tire-size-85 {
+  margin: 0;
+}
+
+.product-parameters-product-nam-container {
+  margin: 0;
+  align-self: stretch;
+  height: 352px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.open-close-sizes,
+.social-media-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.open-close-sizes {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 36px 0;
+  font-size: 32px;
+}
+
+.social-media-frame {
+  flex: 1;
+  align-items: center;
+  gap: 58px 0;
+}
+
+.footer-frame1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 11px;
+  box-sizing: border-box;
+  font-size: 40px;
+  color: #fff;
+}
+
+.footer-frame,
+.footer-frame1,
+.social-media-links-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.social-media-links-frame {
+  width: 1160px;
+  flex-direction: column;
+  gap: 107px 0;
+  text-align: left;
+  font-size: 35.6px;
+  color: #fbfbfb;
+  font-family: Ubuntu;
+}
+
+.footer-frame {
+  width: 1268px;
+  flex-direction: row;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.bg {
+  width: 1440px;
+  height: 153px;
+  position: relative;
+  background-color: #42454a;
+  display: none;
+  max-width: 100%;
+}
+
+.facebook-icon,
+.instagramm-icon,
+.twitter-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+  z-index: 1;
+}
+
+.copyright-info-frame,
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.copyright-info-frame {
+  gap: 0 16px;
+}
+
+.social-media-icons {
+  padding: 0 0 0 34px;
+}
+
+.copyright-2021-all {
+  position: relative;
+  z-index: 1;
+}
+
+.electric-scooter-2,
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.footer {
+  align-self: stretch;
+  height: 153px;
+  background-color: #42454a;
+  justify-content: flex-end;
+  padding: 22px;
+  gap: 27px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #fbfbfb;
+  font-family: Poppins;
+}
+
+.electric-scooter-2 {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+  gap: 36px 0;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1125px) {
+
+  .buy-button,
+  .product-parameter-frame {
+    flex: 1;
+  }
+
+  .electric-scooter-text {
+    flex-wrap: wrap;
+    gap: 0 155px;
+  }
+
+  .social-media-links-frame {
+    gap: 107px 0;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .home-about-pricing-frame {
+    display: none;
+  }
+
+  .electric-scooter {
+    font-size: 28px;
+  }
+
+  .buy-battery-operated-and {
+    font-size: 32px;
+  }
+
+  .div {
+    font-size: 28px;
+  }
+
+  .parameter-explanation {
+    font-size: 32px;
+  }
+
+  .product-parameters-product-nam-container,
+  .size-open-size-container {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .search-box-login-frame {
+    gap: 0 48px;
+  }
+
+  .navs {
+    padding-left: 100px;
+    box-sizing: border-box;
+  }
+
+  .size-frame {
+    gap: 171px 0;
+  }
+
+  .buy-button,
+  .product-parameter-frame {
+    min-width: 100%;
+  }
+
+  .electric-scooter-text {
+    gap: 0 155px;
+  }
+
+  .open-close-sizes {
+    gap: 36px 0;
+  }
+
+  .social-media-frame {
+    gap: 58px 0;
+  }
+
+  .social-media-links-frame {
+    gap: 107px 0;
+  }
+
+  .electric-scooter-2 {
+    gap: 36px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .home-about-pricing-frame {
+    gap: 0 32px;
+  }
+
+  .search-box-login-frame {
+    display: none;
+  }
+
+  .navs {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+
+  .electric-scooter {
+    font-size: 21px;
+  }
+
+  .buy-battery-operated-and {
+    font-size: 24px;
+  }
+
+  .size-frame {
+    gap: 171px 0;
+  }
+
+  .div {
+    font-size: 21px;
+  }
+
+  .second-level-frame {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+
+  .product-parameter-frame {
+    gap: 39px 0;
+  }
+
+  .electric-scooter-text {
+    gap: 0 155px;
+  }
+
+  .parameter-explanation {
+    font-size: 24px;
+  }
+
+  .product-parameters-product-nam-container,
+  .size-open-size-container {
+    font-size: 19px;
+  }
+}

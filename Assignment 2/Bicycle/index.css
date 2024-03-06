@@ -1,0 +1,472 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.nav-text{
+  text-decoration: none;
+  color: white;
+}
+.nav-text:hover{
+  color: #3199e4;
+}
+
+.home {
+  height: 19px;
+  width: 45px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.products {
+  height: 19px;
+  width: 68px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.akar-iconschevron-down {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.products-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.about {
+  height: 19px;
+  width: 46px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.pricing {
+  height: 19px;
+  width: 52px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.about-frame {
+  width: 327px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  max-width: 100%;
+}
+.sign-in-frame {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.search {
+  text-transform: capitalize;
+}
+.for-anything {
+  text-transform: lowercase;
+}
+.search-for-anything-container {
+  height: 17px;
+  width: 130px;
+  position: relative;
+  font-size: 14px;
+  font-family: Inter;
+  color: #0e0e0e;
+  text-align: left;
+  display: inline-block;
+}
+.search-box {
+  cursor: pointer;
+  border: none;
+  padding: 12px 40px;
+  background-color: #fff;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: 12px;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.search-box:hover {
+  background-color: #e6e6e6;
+}
+.log-in-child {
+  height: 44px;
+  width: 130px;
+  position: relative;
+  border-radius: 25px;
+  display: none;
+}
+.log-in1 {
+  height: 26px;
+  flex: 1;
+  position: relative;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.log-in {
+  cursor: pointer;
+  border: none;
+  padding: 7px 7px 11px 30px;
+  background-color: #fff;
+  width: 130px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.log-in:hover {
+  background-color: #e6e6e6;
+}
+.login-frame {
+  width: 514px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px;
+  max-width: 100%;
+}
+.navs {
+  flex: 1;
+  background-color: #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 22px 20px 200px;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: #fbfbfb;
+  font-family: Inter;
+}
+.header-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 5px;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+}
+.lets-go-outside {
+  margin: 0;
+}
+.bikes {
+  color: #edb524;
+}
+.lets-go-outside-and-container {
+  margin: 0;
+  width: 461px;
+  height: 106px;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.explore-ride-and {
+  width: 498px;
+  height: 116px;
+  position: relative;
+  font-size: 20px;
+  line-height: 170%;
+  display: flex;
+  align-items: center;
+}
+.background-model-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 72px;
+  min-width: 498px;
+  max-width: 100%;
+}
+.cf1dad149015821-1-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.d-model {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5.563218116760254px 28px 5.563218116760254px 5.563218116760254px;
+}
+.red-gate-model-frame {
+  height: 370px;
+  width: 659px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 7px;
+  box-sizing: border-box;
+  min-width: 659px;
+  max-width: 100%;
+}
+.ride-discover-frame {
+  width: 1277px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.outside-ride-frame {
+  width: 1384px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0px 20px 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 48px;
+  color: #464234;
+  font-family: "IBM Plex Mono";
+}
+.forget-about-problem {
+  height: 53.1px;
+  width: 916.6px;
+  position: relative;
+  line-height: 170%;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.new-bike-frame {
+  width: 1119px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.pexels-jack-redgate-3014002-1-icon {
+  position: absolute;
+  top: 290.5px;
+  left: 386px;
+  width: 1054px;
+  height: 286.5px;
+  object-fit: cover;
+}
+.ef2e91149015821-1-icon {
+  position: absolute;
+  top: -0.5px;
+  left: 0px;
+  width: 726.4px;
+  height: 577.5px;
+  object-fit: cover;
+  z-index: 1;
+}
+.logo-rectangle {
+  align-self: stretch;
+  height: 578px;
+  position: relative;
+}
+.bg {
+  width: 1440px;
+  height: 153px;
+  position: relative;
+  background-color: #42454a;
+  display: none;
+  max-width: 100%;
+}
+.facebook-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+  z-index: 1;
+}
+.home-about-pricing {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.nav-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 34px;
+}
+.copyright-2021-all {
+  width: 288px;
+  height: 24px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.footer {
+  align-self: stretch;
+  height: 153px;
+  background-color: #42454a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 22px;
+  box-sizing: border-box;
+  gap: 27px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #fbfbfb;
+  font-family: Poppins;
+}
+.footer-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1px;
+  max-width: 100%;
+}
+.bicycle {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 164px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 28.4px;
+  color: #464234;
+  font-family: "IBM Plex Mono";
+}
+
+@media screen and (max-width: 1225px) {
+  .background-model-frame {
+    flex: 1;
+  }
+
+  .red-gate-model-frame {
+    flex: 1;
+  }
+
+  .ride-discover-frame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .about-frame {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .login-frame {
+    gap: 24px;
+  }
+
+  .navs {
+    padding-left: 100px;
+    box-sizing: border-box;
+  }
+
+  .lets-go-outside-and-container {
+    font-size: 38px;
+    line-height: 58px;
+  }
+
+  .background-model-frame {
+    gap: 36px;
+    min-width: 100%;
+  }
+
+  .red-gate-model-frame {
+    min-width: 100%;
+  }
+
+  .bicycle {
+    gap: 82px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-frame {
+    gap: 16px;
+  }
+
+  .login-frame {
+    display: none;
+  }
+
+  .navs {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+
+  .lets-go-outside-and-container {
+    font-size: 29px;
+    line-height: 43px;
+  }
+
+  .explore-ride-and {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .forget-about-problem {
+    font-size: 23px;
+    line-height: 39px;
+  }
+
+  .bicycle {
+    gap: 41px;
+  }
+}
